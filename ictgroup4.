@@ -1,0 +1,20 @@
+import
+actor winnebaworkshop{
+// Add task 
+type task ={tittle: Text;
+description: Text;
+iscomplete: Bool;
+
+stable var currentTask: Task =  null;
+public func addTask(){ tittle:Text,descrption:Text):async Text{if (currentTask ==null or option.unwrapTask).iscompleted ==true){
+  currentTask :=?{tittle; description = description; incompleted == false);
+  return "Task added successfully";
+  }
+}
+
+}
+}
+// complete the task
+// view task 
+
+}
